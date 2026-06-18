@@ -1,28 +1,84 @@
-# Devlog 0 - v0.0.0 - M0
-<span style="color:limegreen">06/16-17/2026</span>
+<style>
+    .divider {
+        width: 100%;
+        height: 10px;
+        background-image: linear-gradient(
+            to bottom,
+            #f14f8ddd 0%,
+            #ffffffdc 50%,
+            #f14f8ddd 100% 
+        );
+        box-shadow: 0 0 15px #b5084af1; 
+        position: absolute;
+        left: 0;
+        right: 0;
+    }
+
+    .header {
+        color: #00b7ff;
+        font-size: 1rem;
+        font-weight: bolder;
+        font-family: monospace;
+        text-shadow: 0 0 5px #00b3ffe1;
+    }
+
+    .title {
+        color: #37ff62;
+        font-size: 1.5rem;
+        font-weight: bolder;
+        font-family: monospace;
+        text-shadow: 0 0 7px #37ff62b6;
+    }   
+</style>
+
+<p class="title">Devlog 1 || v0.1.0 || M1</p>
+<p class="header">06/18/2026</p>
+
+Spent way too much time trying to make the devlog pretty...
+
+<br>
 
 ---
+<p class="header">Completed:</p>
+
+- Made devlog pretty
+
 <br>
 
+---
+<p class="header">Notes:</p>
+Yeah I wasted a lot of time today on thus dumbshit lmao. I got a calc quiz to do and a Midterm project too wrap up for Software design, boring like the 3rd class that has taught OOP in python lmao, so easy peasy.
+
+<span style="color:orange"><br>- Bubbanaut.</span>
+
+<br>
+<div class="divider"></div>
+<br>
+
+<p class="title">Devlog 0 || v0.0.0 || M0</p>
+<p class="header">06/16-17/2026</p>
+
+```
 Hello world ... alright that was cringe, anways.
+```
 
 <br>
 
-## Acomplished:
-- [X] Scaffolding, basic layout
-- [X] General Documentation/Licensing
-- [X] Specification and Design Planning
-- [X] Road Map, Github issues and Milestones
-- [X] Temporary (or not) Logo
-- [X] Main page laid out, canvas handling and sizing done
-- [X] Devlog component (duh)
+---
+<p class="header">Completed:</p>
+
+- Scaffolding, basic layout
+- General Documentation/Licensing
+- Specification and Design Planning
+- Road Map, Github issues and Milestones
+- Temporary (or not) Logo
+- Main page laid out, canvas handling and sizing done
+- Devlog component (duh)
 
 <br>
 
----  
-## Notes: 
-
-<br>
+---
+<p class="header">Notes:</p>
 
 ```
 "Today" is all about laying down the foundations, so wont take too long, at the time of me writng this, M0 is basically done.
@@ -34,4 +90,5 @@ Gonna try to get my friend in on this, this is probably the project im most inst
 
 Well I think thats enough rambling for today, smell yah later.
 ```
+
 <span style="color:orange"><br>- Bubbanaut.</span>
