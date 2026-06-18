@@ -1,6 +1,6 @@
 
 <div style="display: flex; align-items: center; justify-content: center;">
-  <img src="logo.png" style="height: 70px; width: 100px;">
+  <img src="./public/logo.png" style="height: 70px; width: 100px;">
 </div>
 ![version](https://img.shields.io/github/package-json/v/bubbanaut/Pokemon-Wet-Hot)
 
