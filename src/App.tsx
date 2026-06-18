@@ -2,13 +2,16 @@ import './App.css'
 import DevLog from './devlog/DevLog';
 import { useRef, useEffect, useState } from 'react';
 
+declare const __APP_VERSION__: string;
+const VERSION = __APP_VERSION__;
+
 const TILE = 32;
 const PAD = 12;
 const RATIO_COLS = 8;
 const RATIO_ROWS = 5;
 
 function App() {
-  const VERSION = "0.0.0";
+  
 
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const stageRef = useRef<HTMLDivElement>(null);
