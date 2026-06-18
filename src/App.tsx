@@ -2,9 +2,9 @@ import './App.css'
 import DevLog from './devlog/DevLog';
 import { useRef, useEffect, useState } from 'react';
 
-const TILE = 32;          
-const PAD = 24;         
-const RATIO_COLS = 8;     
+const TILE = 32;
+const PAD = 12;
+const RATIO_COLS = 8;
 const RATIO_ROWS = 5;
 
 function App() {
@@ -53,14 +53,14 @@ function App() {
   return (
     <main className="flex h-screen flex-col overflow-hidden bg-neutral-950 text-neutral-100">
       <header className="flex items-center justify-between border-b border-neutral-800 px-4 py-2">
-        <div className="flex items-baseline gap-2">
-          <h1 className="text-xl font-bold tracking-tight">Pokémon</h1>
-          <h3 className="text-sm font-medium text-emerald-400">Wet-Hot</h3>
+        <div className="flex items-center">
+          <h1 className="text-xl font-bold">Pokémon:</h1>
+          <img src={`logo.png`} alt="Wet-Hot" className="h-20 w-auto" />
         </div>
         <nav className="flex items-center gap-3">
-          <DevLog src={`./devlog/DEVLOG.md`} />
-          <a href="http://github" className="text-sm text-neutral-400 transition-colors hover:text-neutral-100">GitHub</a>
-          <a href="http://bubbanaut.net" className="text-sm text-neutral-400 transition-colors hover:text-neutral-100">My Site</a>
+          <DevLog src={`${import.meta.env.BASE_URL}DEVLOG.md`} />
+          <a href="https://github.com/DylanLiesenfelt/Pokemon-Wet-Hot" className="text-sm text-neutral-400 transition-colors hover:text-neutral-100">GitHub</a>
+          <a href="https://bubbanaut.net" className="text-sm text-neutral-400 transition-colors hover:text-neutral-100">My Site</a>
         </nav>
       </header>
 
