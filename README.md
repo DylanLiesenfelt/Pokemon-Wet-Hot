@@ -1,7 +1,7 @@
 
-
-![](logo.png)
-
+<div style="display: flex; align-items: center; justify-content: center;">
+  <img src="logo.png" style="height: 70px; width: 100px;">
+</div>
 ![version](https://img.shields.io/github/package-json/v/bubbanaut/Pokemon-Wet-Hot)
 
 A fan-made Pokémon game set in a region based mostly on South Florida. Built to run entirely in the browser, and open for anyone to fork, study, and modify.
