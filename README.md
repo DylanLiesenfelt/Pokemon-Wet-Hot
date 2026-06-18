@@ -1,6 +1,7 @@
 
-<div style="display: flex; align-items: center; justify-content: center;width: 100%; height: 100px;">
-  <img src="./public/logo.png" style="height: 100%;">
+<div style="display: flex; align-items: center; justify-content: center;flex_direction: column; width: 100%; height: 100px;">
+  <img src="./public/pokemon_logo.png" style="height: 50%;">
+  <img src="./public/logo.png" style="height: 50%;">
 </div>
 
 ![version](https://img.shields.io/github/package-json/v/DylanLiesenfelt/Pokemon-Wet-Hot)
@@ -16,7 +17,6 @@ A fan-made Pokémon game set in a region based mostly on South Florida. Built to
 ## Licensing
 
 - **Source code:** [GNU GPLv3](LICENSE) unless otherwise noted. Forks and modifications are welcome and must remain open under the same license.
-- **Original assets** (original art, music, writing, and dex data created for this project): *CC BY-SA 4.0*.
 
 ---
 
