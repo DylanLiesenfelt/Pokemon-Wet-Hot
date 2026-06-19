@@ -32,7 +32,7 @@
 </style>
 
 <p class="title">Devlog 1 || v0.1.0 || M1</p>
-<p class="header">06/18/2026</p>
+<p class="header">06/18-19/2026</p>
 
 Spent way too much time trying to make the devlog pretty...
 
@@ -42,12 +42,19 @@ Spent way too much time trying to make the devlog pretty...
 <p class="header">Completed:</p>
 
 - Made devlog pretty
+- Started working out map stuff
+- Made a template for maps
+- started learning canvas stuff
 
 <br>
 
 ---
 <p class="header">Notes:</p>
 Yeah I wasted a lot of time today on thus dumbshit lmao. I got a calc quiz to do and a Midterm project too wrap up for Software design, boring like the 3rd class that has taught OOP in python lmao, so easy peasy.
+
+Did my calc quiz, got 4/5, idk what i got wrong, feels bad son.
+
+Idk shit about canvas element, so looked into that not too bad at all. Watched a youtube vide 1 like a month ago on the devolpement of the gen 1 games, and how the rendering and navigation and mapping worked, so I am going to do something similar. Started setting up the starting town calling it Margato for now, gonna do some more in the morning its already 1am and my latop is on 3%
 
 <span style="color:orange"><br>- Bubbanaut.</span>
 
